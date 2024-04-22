@@ -1,6 +1,13 @@
 package com.example.anytest.interview_questions;
 import java.util.Arrays;
 
+/**
+ * @author gongchengship@163.com
+ *
+ * 有2个数组，存的是字符串，取出相同的元素。
+ * (1.对数组排序后使用双指针 ( O(n * log n)) 来做)
+ * (1.双重 for 循环 O(n^2) 也可以做)
+ */
 
 public class PickSameElements {
     public static void main(String[] args) {
