@@ -3,6 +3,10 @@ package com.example.anytest._basic;
 /**
  * @author gongchengship@163.com
  *
+ * 左程云说算法分两种
+ * 1. 描述怎么"算"的步骤 --代表人物 Ada Lovelace伯爵夫人
+ * 2. 描述怎么"试"的步骤 --代表人物 图灵
+ *
  */
 public class Create_Array_In_3_Ways {
 

@@ -10,6 +10,10 @@ package com.example.anytest._basic;
  * 异或 :   ^  :相同为0，不同为1.
  * 左移 : 1 << n 相当于 "1 乘以 2 的 n 次方".
  * 右移 : 1 >> n 相当于 "1 除以 2 的 n 次方".
+ *
+ *  * 左程云说算法分两种,而后者才是重点
+ *  * 1. 描述怎么"算"的步骤 --代表人物: Ada Lovelace伯爵夫人
+ *  * 2. 描述怎么"试"的步骤 --代表人物: 图灵
  */
 public class Print_Int_In_Binary {
     public static void printIntInBin(int value) {
