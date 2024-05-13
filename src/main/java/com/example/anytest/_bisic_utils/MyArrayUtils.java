@@ -1,12 +1,10 @@
 package com.example.anytest._bisic_utils;
 
-import java.util.Arrays;
-
 /**
  * @author gongchengship@163.com
  * 算法常用工具集
  */
-public class ArrayUtils {
+public class MyArrayUtils {
     public static void print(int[] arr) {
         if (null == arr || arr.length == 0) {
             System.out.println("数组为空或者数组长度为0, 所以什么也没做");
@@ -153,7 +151,7 @@ public class ArrayUtils {
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        print(arr);
+        MyArrayUtils.print(arr);
         int[] newArr = moveAllToRightThenInsertInArray(arr, 0, 9, -1, 11);
         print(newArr);
     }
